@@ -1,54 +1,63 @@
-Привет ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) Меня зовут Надежда.
+[](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) Hello. I'm Nadezhda Izergina, Java-developer.
 =========================================================================================================================================
 
-Java-разработчик
 --------------
+I have been studying Java for almost two years with the goal of shifting my career priorities. Gradually, I have been gaining practical experience in development and implementing projects aimed at solving real-world problems. My experience includes creating console games and utilities for data analysis, as well as developing web applications using frameworks like Spring and Javalin.
 
-Я изучала язык Java в течение почти двух лет с целью смены приоритетов в плане карьеры. Постепенно и по сегодняшний день складывается опыт в практической разработке и реализации проектов, направленных на решение реальных задач.Мой опыт включает создание консольных игр и утилит для анализа данных, а также разработку веб-приложений с использованием фреймворков Spring и Javalin. Ключевые навыки: -Проектирование и реализация объектно-ориентированных решений. -Написание автоматизированных тестов с использованием JUnit для обеспечения высокого качества кода. -Опыт работы с интеграционным тестированием и логгированием для повышения надежности приложений. -Уверенное использование Git и командной строки. -Работа с базами данных, такими как PostgreSQL, и знание принципов работы с RESTful API. -Обработка и валидация данных в различных форматах (JSON, YAML). -Умение координировать работу команды и обучать новых сотрудников. Стремлюсь к изучению новых технологий и подходов в разработке, таких как Agile и Scrum, с активным применением их в работе. Цель — внести значимый вклад в успешные проекты и продолжать профессиональное развитие, осваивая новые инструменты и методологии.
+Key skills:
 
-* 🌍  Локация - Казань, Россия
-* ✉️  связаться: [nizergina@inbox.ru](mailto:nizergina@inbox.ru)
+    Designing and implementing object-oriented solutions.
+    Writing automated tests using JUnit to ensure high code quality.
+    Experience with integration testing and logging to enhance application reliability.
+    Proficient use of Git and the command line.
+    Working with databases such as PostgreSQL and understanding the principles of RESTful API.
+    Data processing and validation in various formats (JSON, YAML).
+    Ability to coordinate team efforts and train new employees.
 
-* Образование
-* Hexlet
- Апрель 2023 - Март 2025
-* Информатика и вычислительная техника, КНИТУ
-  Сентябрь 2019 - Январь 2022
-* Психология, КФУ
- Сентябрь 2016 - Июнь 2018
-* Немецкий язык и литература, КФУ
- Сентябрь 2012 - Июнь 2016
+I am eager to learn new technologies and approaches in development, such as Agile and Scrum, and actively apply them in my work. My goal is to make a meaningful contribution to successful projects and continue my professional development by mastering new tools and methodologies.
 
 
-* Навыки
-* Языки программирования:
- Java
- Языки разметки:
- HTML
- CSS
-* Инструменты разработки:
- IntelliJ IDEA
- Git
- WSL
- Командная строка
-* Базы данных:
- PostgreSQL
-* Технологии:
- Основы работы с RESTful API
- Опыт работы с JSON и YAML
-* Фреймворки и технологии:
- Spring:
- Опыт работы с Spring Framework для создания веб-приложений и RESTful сервисов.
- Hibernate:
- Использование Hibernate для работы с базами данных и ORM (Object-Relational Mapping).
- JDBC:
- Знание JDBC для взаимодействия с базами данных на низком уровне.
-* Дополнительные навыки:
- Основы работы с RESTful API
- Опыт работы с JSON и YAML
- Знание принципов Agile и Scrum
+* ✉️  email: [nizergina@inbox.ru](mailto:nizergina@inbox.ru)
 
-* Опыт
-Агент по организации и обслуживанию пассажирских авиаперевозок,Международный аэропорт Казань
+Education:
+    Hexlet
+    April 2023 - March 2025
+    Computer Science and Computer Engineering, Kazan National Research Technical University (KSTU)
+    September 2019 - January 2022
+    Psychology, Kazan Federal University (KFU)
+    September 2016 - June 2018
+    German Language and Literature, Kazan Federal University (KFU)
+    September 2012 - June 2016
+
+Skills:
+    Programming Languages:
+    -Java
+    Markup Languages:
+    -HTML
+    -CSS
+    Development Tools:
+    -IntelliJ IDEA
+    -Git
+    -WSL
+    -Command Line
+    Databases:
+    -PostgreSQL
+    Technologies:
+    -Basics of working with RESTful API
+    -Experience with JSON and YAML
+    Frameworks and Technologies:
+    -Spring:
+    Experience with Spring Framework for creating web applications and RESTful services.
+    -Hibernate:
+    Using Hibernate for database interaction and ORM (Object-Relational Mapping).
+    -JDBC:
+    -Knowledge of JDBC for low-level database interaction.
+    Additional Skills:
+    -Basics of working with RESTful API
+    -Experience with JSON and YAML
+    -Understanding of Agile and Scrum principles
+
+Experience:
+Check-in agent for organizing and servicing passenger air transportation, Kazan International Airport
 kazan.aero
-Апрель 2018 - по настоящее время
+April 2018 - today
