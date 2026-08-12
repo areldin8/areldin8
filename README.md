@@ -6,10 +6,11 @@
 <h1 align="center">Привет! Я Надежда — Java Backend Developer 👩‍💻</h1>
 
 <p align="center">
-  <a href=sims_resume (2).html>
-    <img src="https://shields.io📄_Моё_резюме-3fbf5f?style=for-the-badge" alt="Резюме" />
+  <a href="https://github.io" target="_blank">
+    <img src="https://shields.io" alt="Резюме" />
   </a>
 </p>
+
 
 ---
 
