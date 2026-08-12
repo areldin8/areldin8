@@ -51,7 +51,6 @@
   </a>
 </p>
 
-
 * ☕ **Уровень Java-разработки:** 85% (Junior+)
 * ⚙️ **Основной язык:** Java (Core, Collections, Stream API)
 * 🗄️ **Базы данных:** PostgreSQL, Hibernate (Опыт Highload)
