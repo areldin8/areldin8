@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Изергина Надежда — Sim Card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --plumbob-green:#3fbf5f;
+    --plumbob-dark:#1f8f3e;
+    --plumbob-light:#8fe6a4;
+    --panel-teal:#1c9b8e;
+    --panel-teal-dark:#127268;
+    --hud-navy:#0d3b4f;
+    --cream:#f3ecd8;
+    --wood:#e8dcb8;
+    --wood-dark:#cbb789;
+    --gold:#e0a428;
+    --need-full:#5fd35f;
+    --text-dark:#1f2b1f;
+    --shadow-hud: 0 4px 0 rgba(0,0,0,0.18);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Nunito',sans-serif;
+    background:
+      radial-gradient(circle at 15% 10%, #fbf6e4 0%, transparent 45%),
+      linear-gradient(180deg, var(--cream) 0%, var(--wood) 100%);
+    color:var(--text-dark);
+    padding:28px 14px 60px;
+  }
+  .sim-container{
+    max-width:760px;
+    margin:0 auto;
+  }
+
+  /* ===== TOP BANNER ===== */
+  .banner{
+    background:linear-gradient(180deg, var(--panel-teal) 0%, var(--panel-teal-dark) 100%);
+    border-radius:22px;
+    padding:22px 26px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    box-shadow:var(--shadow-hud);
+    border:3px solid #0e5a52;
+    position:relative;
+    overflow:hidden;
+  }
+  .banner::after{
+    content:"";
+    position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(255,255,255,0.18), transparent 40%);
+    pointer-events:none;
+  }
+  .plumbob{
+    width:56px; height:70px; flex-shrink:0;
+    filter:drop-shadow(0 3px 0 rgba(0,0,0,0.25));
+  }
+  .banner-text{color:#fff;}
+  .banner-eyebrow{
+    font-family:'Baloo 2',sans-serif;
+    font-size:12px; letter-spacing:2px; text-transform:uppercase;
+    color:#c7f2e8; margin:0 0 2px;
+    font-weight:700;
+  }
+  .banner-name{
+    font-family:'Baloo 2',sans-serif;
+    font-size:32px; font-weight:800; margin:0; line-height:1.05;
+    text-shadow:0 2px 0 rgba(0,0,0,0.2);
+  }
+  .banner-sub{
+    font-size:14px; font-weight:700; margin:6px 0 0; color:#e9fff6;
+  }
+
+  /* ===== ASPIRATION / NEEDS BAR ===== */
+  .panel{
+    background:var(--cream);
+    border-radius:18px;
+    border:3px solid var(--wood-dark);
+    padding:18px 20px;
+    margin-top:18px;
+    box-shadow:0 3px 0 rgba(0,0,0,0.08);
+  }
+  .panel-title{
+    font-family:'Baloo 2',sans-serif;
+    font-size:15px; font-weight:800; text-transform:uppercase; letter-spacing:1px;
+    color:var(--panel-teal-dark);
+    margin:0 0 12px;
+    display:flex; align-items:center; gap:8px;
+  }
+  .panel-title .dot{
+    width:10px;height:10px;border-radius:50%;background:var(--gold);
+    box-shadow:0 2px 0 rgba(0,0,0,0.2);
+  }
+
+  .aspiration-row{display:flex; align-items:center; gap:14px;}
+  .aspiration-icon{
+    width:44px;height:44px;flex-shrink:0;
+  }
+  .need-bar-outer{
+    flex:1;
+    background:#cfc4a0;
+    border-radius:20px;
+    height:20px;
+    border:2px solid #a8996a;
+    overflow:hidden;
+  }
+  .need-bar-inner{
+    height:100%;
+    background:linear-gradient(180deg, #7ee88f, var(--need-full));
+    border-radius:20px 0 0 20px;
+  }
+  .aspiration-caption{
+    font-size:13px; font-weight:700; color:var(--text-dark); margin-top:8px;
+  }
+
+  /* ===== TRAITS ===== */
+  .traits-wrap{display:flex; flex-wrap:wrap; gap:10px;}
+  .trait-chip{
+    background:linear-gradient(180deg, #ffffff, #eef7ec);
+    border:2px solid var(--plumbob-dark);
+    border-radius:30px;
+    padding:8px 16px 8px 10px;
+    display:flex; align-items:center; gap:8px;
+    font-weight:700; font-size:13px;
+    box-shadow:0 2px 0 rgba(0,0,0,0.12);
+  }
+  .trait-chip .trait-gem{
+    width:16px;height:20px;
+    background:var(--plumbob-green);
+    clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    flex-shrink:0;
+  }
+
+  /* ===== CAREER LADDER ===== */
+  .career-track{
+    display:flex;
+    flex-direction:column;
+    gap:0;
+  }
+  .career-step{
+    display:flex;
+    gap:16px;
+    position:relative;
+    padding-bottom:22px;
+  }
+  .career-step:last-child{padding-bottom:0;}
+  .career-line{
+    width:34px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex-shrink:0;
+  }
+  .career-node{
+    width:34px;height:34px;
+    background:var(--gold);
+    border:3px solid #a8730f;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    color:#4a3200; font-family:'Baloo 2',sans-serif; font-weight:800; font-size:13px;
+    box-shadow:0 2px 0 rgba(0,0,0,0.2);
+    flex-shrink:0;
+  }
+  .career-connector{
+    width:4px; flex:1;
+    background:repeating-linear-gradient(180deg, var(--gold) 0 6px, transparent 6px 11px);
+    margin-top:2px;
+  }
+  .career-body{padding-top:2px;}
+  .career-role{
+    font-family:'Baloo 2',sans-serif; font-weight:700; font-size:15px; color:var(--panel-teal-dark);
+    margin:0;
+  }
+  .career-org{font-size:13px; font-weight:800; margin:2px 0 0;}
+  .career-dates{font-size:12px; color:#6b6350; font-weight:700; margin:1px 0 6px;}
+  .career-desc{font-size:13px; line-height:1.55; margin:0;}
+
+  /* ===== SKILL BARS ===== */
+  .skill-grid{display:flex; flex-direction:column; gap:12px;}
+  .skill-row{display:flex; align-items:center; gap:12px;}
+  .skill-label{
+    width:150px; flex-shrink:0;
+    font-weight:800; font-size:13px;
+  }
+  .skill-pips{
+    display:flex; gap:3px; flex:1;
+  }
+  .pip{
+    height:16px; flex:1;
+    background:#cfc4a0;
+    border:1.5px solid #a8996a;
+    border-radius:3px;
+  }
+  .pip.filled{
+    background:linear-gradient(180deg,#8fe6a4,var(--plumbob-green));
+    border-color:var(--plumbob-dark);
+  }
+  .skill-level{
+    width:34px; text-align:right; font-weight:800; font-size:12px; color:var(--panel-teal-dark);
+    flex-shrink:0;
+  }
+
+  /* ===== EDUCATION / UNLOCKS ===== */
+  .unlock-list{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px;}
+  .unlock-item{
+    display:flex; align-items:flex-start; gap:10px;
+    background:#fff; border:2px solid var(--wood-dark); border-radius:12px;
+    padding:10px 12px;
+  }
+  .unlock-badge{
+    width:26px;height:26px; border-radius:50%; flex-shrink:0;
+    background:var(--plumbob-green); border:2px solid var(--plumbob-dark);
+    display:flex; align-items:center; justify-content:center;
+    color:#fff; font-size:14px; font-weight:800;
+  }
+  .unlock-title{font-weight:800; font-size:13.5px; margin:0;}
+  .unlock-sub{font-size:12px; color:#6b6350; font-weight:700; margin:1px 0 0;}
+
+  /* ===== LANGUAGES ===== */
+  .lang-grid{display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px;}
+  .lang-card{
+    background:#fff; border:2px solid var(--wood-dark); border-radius:14px;
+    padding:12px; text-align:center;
+  }
+  .lang-flag{font-family:'Baloo 2',sans-serif; font-weight:800; font-size:14px;}
+  .lang-level{font-size:12px; color:var(--panel-teal-dark); font-weight:800; margin-top:4px;}
+
+  /* ===== HOUSEHOLD / CONTACT FOOTER ===== */
+  .household{
+    background:linear-gradient(180deg, var(--hud-navy), #082530);
+    border-radius:18px;
+    padding:18px 22px;
+    margin-top:18px;
+    color:#eafff5;
+    display:flex; flex-wrap:wrap; gap:16px 28px;
+    align-items:center;
+  }
+  .household-item{display:flex; align-items:center; gap:8px; font-size:13px; font-weight:700;}
+  a.household-item:hover{color:var(--plumbob-light);}
+  .household-item .ico{
+    width:20px;height:20px; flex-shrink:0;
+    background:var(--plumbob-green);
+    clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  .household-title{
+    width:100%;
+    font-family:'Baloo 2',sans-serif; font-weight:800; font-size:13px;
+    text-transform:uppercase; letter-spacing:1px; color:var(--plumbob-light);
+    margin:0 0 2px;
+  }
+
+  .simoleon-badge{
+    margin-left:auto;
+    background:var(--gold);
+    border:2px solid #a8730f;
+    border-radius:12px;
+    padding:6px 12px;
+    font-family:'Baloo 2',sans-serif; font-weight:800; font-size:15px;
+    color:#4a3200;
+    white-space:nowrap;
+  }
+
+  @media (max-width:520px){
+    .banner{flex-direction:column; text-align:center;}
+    .simoleon-badge{margin-left:0;}
+    .lang-grid{grid-template-columns:1fr;}
+    .skill-label{width:120px; font-size:12px;}
+  }
+</style>
+</head>
+<body>
+<div class="sim-container">
+
+  <!-- BANNER -->
+  <div class="banner">
+    <svg class="plumbob" viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,4 94,50 50,126 6,50" fill="#3fbf5f" stroke="#0e5a2a" stroke-width="4"/>
+      <polygon points="50,4 94,50 50,50" fill="#8fe6a4"/>
+      <polygon points="50,4 6,50 50,50" fill="#5fce77"/>
+      <polygon points="6,50 50,126 50,50" fill="#28a047"/>
+      <polygon points="94,50 50,126 50,50" fill="#1f8f3e"/>
+    </svg>
+    <div class="banner-text">
+      <p class="banner-eyebrow">Карта сима · играбельный персонаж</p>
+      <p class="banner-name">Изергина Надежда</p>
+      <p class="banner-sub">Java-разработчик · Казань, 31 год · household #areldin8</p>
+    </div>
+  </div>
+
+  <!-- ASPIRATION -->
+  <div class="panel">
+    <p class="panel-title"><span class="dot"></span>Стремление: получить оффер Java-разработчика</p>
+    <div class="aspiration-row">
+      <svg class="aspiration-icon" viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="50,4 94,50 50,126 6,50" fill="#e0a428" stroke="#a8730f" stroke-width="5"/>
+      </svg>
+      <div style="flex:1;">
+        <div class="need-bar-outer"><div class="need-bar-inner" style="width:96%;"></div></div>
+        <p class="aspiration-caption">2 года 11 месяцев опыта в Java-разработке · готовность 96% · ожидание: 120 000 ₽ на руки</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TRAITS -->
+  <div class="panel">
+    <p class="panel-title"><span class="dot"></span>Черты характера</p>
+    <div class="traits-wrap">
+      <div class="trait-chip"><span class="trait-gem"></span>Технический перфекционист</div>
+      <div class="trait-chip"><span class="trait-gem"></span>Устойчив к высоким нагрузкам</div>
+      <div class="trait-chip"><span class="trait-gem"></span>Любит порядок в данных</div>
+      <div class="trait-chip"><span class="trait-gem"></span>Полиглот</div>
+      <div class="trait-chip"><span class="trait-gem"></span>Командный игрок</div>
+    </div>
+  </div>
+
+  <!-- CAREER TRACK -->
+  <div class="panel">
+    <p class="panel-title"><span class="dot"></span>Карьерная лестница</p>
+    <div class="career-track">
+
+      <div class="career-step">
+        <div class="career-line">
+          <div class="career-node">1</div>
+        </div>
+        <div class="career-body">
+          <p class="career-role">Java-разработчик (Backend)</p>
+          <p class="career-org">Hexlet</p>
+          <p class="career-dates">Апрель 2023 — Февраль 2026 · 2 года 11 месяцев</p>
+          <p class="career-desc">Spring Boot (MVC, Data, Security), Javalin, REST API. PostgreSQL + Hibernate, тесты на JUnit 5 и Mockito. Docker-compose, Gradle, Sentry/Rollbar. Интеграция OAuth 2.0 (VK ID), участие в миграции сервиса с Ruby на Java, конструктор рассылок с DTO-валидацией.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="panel">
+    <p class="panel-title"><span class="dot"></span>Навыки</p>
+    <div class="skill-grid">
+      <div class="skill-row"><div class="skill-label">Java</div><div class="skill-pips" id="s1"></div><div class="skill-level">9/10</div></div>
+      <div class="skill-row"><div class="skill-label">Spring Boot</div><div class="skill-pips" id="s2"></div><div class="skill-level">7/10</div></div>
+      <div class="skill-row"><div class="skill-label">SQL и базы данных</div><div class="skill-pips" id="s3"></div><div class="skill-level">8/10</div></div>
+      <div class="skill-row"><div class="skill-label">Тестирование</div><div class="skill-pips" id="s6"></div><div class="skill-level">8/10</div></div>
+      <div class="skill-row"><div class="skill-label">Apache Kafka</div><div class="skill-pips" id="s7"></div><div class="skill-level">5/10</div></div>
+      <div class="skill-row"><div class="skill-label">Git</div><div class="skill-pips" id="s8"></div><div class="skill-level">7/10</div></div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="panel">
+    <p class="panel-title"><span class="dot"></span>Образование</p>
+    <ul class="unlock-list">
+      <li class="unlock-item">
+        <div class="unlock-badge">✓</div>
+        <div>
+          <p class="unlock-title">Java-разработчик — курс Hexlet</p>
+          <p class="unlock-sub">Повышение квалификации, 2025</p>
+        </div>
+      </li>
+      <li class="unlock-item">
+        <div class="unlock-badge">✓</div>
+        <div>
+          <p class="unlock-title">Разработчик серверной части (Backend Java)</p>
+          <p class="unlock-sub">Московский Инновационный Кластер, тест/сертификат, 2026</p>
+        </div>
+      </li>
+      <li class="unlock-item">
+        <div class="unlock-badge">✓</div>
+        <div>
+          <p class="unlock-title">Информатика и вычислительная техника</p>
+          <p class="unlock-sub">КНИТУ, Казань — неоконченное высшее, 2022</p>
+        </div>
+      </li>
+      <li class="unlock-item">
+        <div class="unlock-badge">✓</div>
+        <div>
+          <p class="unlock-title">Магистр психологии</p>
+          <p class="unlock-sub">Казанский (Приволжский) федеральный университет, 2018</p>
+        </div>
+      </li>
+      <li class="unlock-item">
+        <div class="unlock-badge">✓</div>
+        <div>
+          <p class="unlock-title">Немецкий язык и литература</p>
+          <p class="unlock-sub">Казанский (Приволжский) федеральный университет, 2016</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- LANGUAGES -->
+  <div class="panel">
+    <p class="panel-title"><span class="dot"></span>Языки</p>
+    <div class="lang-grid">
+      <div class="lang-card"><div class="lang-flag">Русский</div><div class="lang-level">Родной</div></div>
+      <div class="lang-card"><div class="lang-flag">English</div><div class="lang-level">B1 — средний</div></div>
+      <div class="lang-card"><div class="lang-flag">Deutsch</div><div class="lang-level">B1 — средний</div></div>
+    </div>
+  </div>
+
+  <!-- HOUSEHOLD / CONTACTS -->
+  <div class="household">
+    <p class="household-title">Контакты</p>
+    <div class="household-item"><span class="ico"></span>+7 (927) 401-48-86</div>
+    <div class="household-item"><span class="ico"></span>nizergina@inbox.ru</div>
+    <a class="household-item" href="https://github.com/areldin8" target="_blank" rel="noopener noreferrer" style="color:inherit; text-decoration:none;"><span class="ico"></span>github.com/areldin8</a>
+    <div class="household-item"><span class="ico"></span>career.habr.com/areldin8</div>
+    <div class="household-item"><span class="ico"></span>Казань</div>
+    <div class="simoleon-badge">120 000 ₽ / мес</div>
+  </div>
+
+</div>
+<script>
+  const levels = {s1:9, s2:7, s3:8, s6:8, s7:5, s8:7};
+  Object.keys(levels).forEach(id=>{
+    const el = document.getElementById(id);
+    const lvl = levels[id];
+    for(let i=1;i<=10;i++){
+      const pip = document.createElement('div');
+      pip.className = 'pip' + (i<=lvl ? ' filled':'');
+      el.appendChild(pip);
+    }
+  });
+</script>
+</body>
+</html>
