@@ -1,7 +1,9 @@
 <p align="center">
-  <!-- Тот самый легендарный 3D Пламбоб из Симс, который точно прогрузится -->
-  <img src="https://giphy.com" width="120" alt="Sims Green Plumbob" />
+  <a href="https://pinterest.com" target="_blank">
+    <img src="https://pinimg.com" width="450" alt="Sims Style Java Card" />
+  </a>
 </p>
+
 
 <h1 align="center">Привет! Я Надежда — Java Backend Developer 👩‍💻</h1>
 
