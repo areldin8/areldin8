@@ -3,7 +3,7 @@
 </p>
 
 
-<h1 align="center">Привет! Я Надежда — Java Backend Developer 👩‍💻</h1>
+<h1 align="center">страница с bio 👩‍💻</h1>
 
 <p align="center">
   <a href="https://areldin8.github.io/areldin8/" target="_blank">
