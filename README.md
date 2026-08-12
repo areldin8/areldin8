@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="sims-plumbob.gif" width="200" alt="Sims Style Java Developer Resume" />
+  <img src="sims-plumbob.gif" width="50" alt="Sims Style Java Developer Resume" />
 </p>
 
 
