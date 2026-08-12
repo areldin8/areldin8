@@ -151,9 +151,10 @@
 
           <h3 class="section-title">Черты характера (Опыт)</h3>
           <div style="display: flex; gap: 10px; font-size: 13px; margin-top: 5px;">
-            <span style="background: #00bcff; padding: 4px 10px; border-radius: 20px; font-weight: bold; box-shadow: 1px 1px 3px #000;">Перфекционист (Девичий код)</span>
-            <span style="background: #36ff00; padding: 4px 10px; border-radius: 20px; color: #000; font-weight: bold; box-shadow: 1px 1px 3px #000;">Гений баз данных (Highload)</span>
-            <span style="background: #ffaa00; padding: 4px 10px; border-radius: 20px; color: #000; font-weight: bold; box-shadow: 1px 1px 3px #000;">Кризис-менеджер</span>
+            <span style="background: #00bcff; padding: 4px 10px; border-radius: 20px; font-weight: bold; box-shadow: 1px 1px 3px #000;">Задрот (Код от руки и немного ии-агентов)</span>
+            <span style="background: #36ff00; padding: 4px 10px; border-radius: 20px; color: #000; font-weight: bold; box-shadow: 1px 1px 3px #000;">Немного баз данных(косвенное IT) (Highload)</span>
+            <span style="background: #ffaa00; padding: 4px 10px; border-radius: 20px; color: #000; font-weight: bold; box-shadow: 1px 1px 3px #000;">Git, wsl, docker(базовый минимум)</span>
+            
           </div>
         </div>
       </div>
