@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://pinterest.com" target="_blank">
-    <img src="https://pinimg.com" width="450" alt="Sims Style Java Card" />
-  </a>
+  <img src="sims-plumbob.gif" width="600" alt="Sims Style Java Developer Resume" />
 </p>
 
 
