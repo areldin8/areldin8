@@ -45,6 +45,13 @@
 ---
 ### 📊 Игровая Статистика (GitHub Stats)
 
+<p align="center">
+  <a href="https://areldin8.vercel.app/" target="_blank">
+    <img src="https://shields.io" alt="Резюме" />
+  </a>
+</p>
+
+
 * ☕ **Уровень Java-разработки:** 85% (Junior+)
 * ⚙️ **Основной язык:** Java (Core, Collections, Stream API)
 * 🗄️ **Базы данных:** PostgreSQL, Hibernate (Опыт Highload)
