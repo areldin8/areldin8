@@ -43,15 +43,14 @@
 * 🛠 **Карьерист (Пет-проекты):** Разработала полноценный аналог Jira (_Task Manager_ со Spring Security), библиотеку _Data Validator_ на чистом ООП и SEO-парсер страниц.
 
 ---
-
 ### 📊 Игровая Статистика (GitHub Stats)
 
 <p align="left">
-  <!-- Карточка общей статистики аккаунта -->
-  <img src="https://vercel.app/?username=areldin8" alt="GitHub stats" height="165" />
+  <!-- Карточка общей статистики -->
+  <img src="https://vercel.org" alt="GitHub stats" height="165" />
   
-  <!-- Карточка используемых языков программирования -->
-  <img src="https://vercel.app/?username=areldin8" alt="Top languages" height="165" />
+  <!-- Карточка топ-языков -->
+  <img src="https://vercel.org" alt="Top languages" height="165" />
 </p>
 
 ---
