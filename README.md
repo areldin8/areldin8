@@ -48,10 +48,10 @@
 
 <p align="left">
   <!-- Карточка общей статистики аккаунта -->
-  <img src="https://vercel.app" alt="GitHub stats" height="165" />
+  <img src="https://vercel.app/?username=areldin8" alt="GitHub stats" height="165" />
   
   <!-- Карточка используемых языков программирования -->
-  <img src="https://vercel.app" alt="Top languages" height="165" />
+  <img src="https://vercel.app/?username=areldin8" alt="Top languages" height="165" />
 </p>
 
 ---
