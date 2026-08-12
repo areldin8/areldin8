@@ -6,10 +6,11 @@
 <h1 align="center">Привет! Я Надежда — Java Backend Developer 👩‍💻</h1>
 
 <p align="center">
-  <a href="https://github.io" target="_blank">
+  <a href="https://areldin8.github.io/areldin8/" target="_blank">
     <img src="https://shields.io" alt="Резюме" />
   </a>
 </p>
+
 
 
 ---
