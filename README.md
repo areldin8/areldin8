@@ -56,5 +56,5 @@
 ### 📫 Способы связи (Сетевой режим)
 
 * 📧 **Email:** [nizergina@inbox.ru](mailto:nizergina@inbox.ru)
-* 💼 **Хабр Карьера:** [://habr.com](https://://habr.com)
-* 🐙 **GitHub:** [://github.com](https://://github.com)
+* ✈️ **Telegram:** [@silv_in](https://t.me)
+* 🌐 **LinkedIn:** [://linkedin.com/in/nadezhda-izergina-246372417/](https://://linkedin.com)
