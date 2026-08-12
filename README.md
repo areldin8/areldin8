@@ -54,7 +54,6 @@
 ---
 
 ### 📫 Способы связи (Сетевой режим)
-
 * 📧 **Email:** [nizergina@inbox.ru](mailto:nizergina@inbox.ru)
 * ✈️ **Telegram:** [@silv_in](https://t.me)
-* 🌐 **LinkedIn:** [://linkedin.com/in/nadezhda-izergina-246372417/](https://://linkedin.com)
+* 🌐 **LinkedIn:** [linkedin.com/in/nadezhda-izergina-246372417](https://linkedin.com)
