@@ -47,10 +47,10 @@
 
 <p align="left">
   <!-- Карточка общей статистики -->
-  <img src="https://vercel.org" alt="GitHub stats" height="165" />
+  <img src="https://github-readme-stats.com" alt="GitHub stats" height="165" />
   
   <!-- Карточка топ-языков -->
-  <img src="https://vercel.org" alt="Top languages" height="165" />
+  <img src="https://github-readme-stats.com" alt="Top languages" height="165" />
 </p>
 
 ---
