@@ -46,12 +46,14 @@
 ### 📊 Игровая Статистика (GitHub Stats)
 
 <p align="left">
-  <!-- Карточка общей статистики -->
-  <img src="https://github-readme-stats.com" alt="GitHub stats" height="165" />
-  
-  <!-- Карточка топ-языков -->
-  <img src="https://github-readme-stats.com" alt="Top languages" height="165" />
+  <img src="https://shields.io" alt="Sims Stats" />
+  <img src="https://shields.io" alt="Code Activity" />
 </p>
+
+* 🟩 **Главный навык:** Java (Core, Collections, Stream API) [INDEX]
+* 🟩 **Базы данных:** PostgreSQL, Hibernate (Опыт Highload) [INDEX]
+* 🟩 **Фреймворки:** Spring Boot (MVC, Data, Security), Javalin [INDEX]
+* 🟩 **DevOps окружение:** Docker, Docker-compose, Apache Kafka, Git [INDEX]
 
 ---
 
