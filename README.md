@@ -1,64 +1,45 @@
 [](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) Hello :) Here's bio.
 =========================================================================================================================================
 
---------------
-# Profile
+<h1 align="center">Привет, я Надежда 👋</h1>
+<p align="center">Java-разработчик из Казани · Spring Boot · PostgreSQL · чистый код и надёжный бэкенд</p>
 
-I have been studying Java for almost two years with the goal of shifting my career priorities. Gradually, I have been gaining practical experience in development and implementing projects aimed at solving real-world problems. My experience includes creating console games and utilities for data analysis, as well as developing web applications using frameworks like Spring and Javalin.
+<p align="center">
+  <a href="https://areldin8.github.io">
+    <img src="https://img.shields.io/badge/📄_Моё_резюме-3fbf5f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Резюме" />
+  </a>
+</p>
 
-## Key Skills
+---
 
-- Designing and implementing object-oriented solutions.
-- Writing automated tests using JUnit to ensure high code quality.
-- Experience with integration testing and logging to enhance application reliability.
-- Proficient use of Git and the command line.
-- Working with databases such as PostgreSQL and understanding the principles of RESTful API.
-- Data processing and validation in various formats (JSON, YAML).
-- Ability to coordinate team efforts and train new employees.
+### 🛠 Стек
 
-I am eager to learn new technologies and approaches in development, such as Agile and Scrum, and actively apply them in my work. My goal is to make a meaningful contribution to successful projects and continue my professional development by mastering new tools and methodologies.
+<p>
+  <img src="https://img.shields.io/badge/Java-3fbf5f?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring_Boot-3fbf5f?style=flat-square&logo=spring&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/PostgreSQL-3fbf5f?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Apache_Kafka-3fbf5f?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka" />
+  <img src="https://img.shields.io/badge/JUnit-3fbf5f?style=flat-square&logo=junit5&logoColor=white" alt="JUnit" />
+  <img src="https://img.shields.io/badge/Git-3fbf5f?style=flat-square&logo=git&logoColor=white" alt="Git" />
+</p>
 
-✉️ **Email:** [nizergina@inbox.ru](mailto:nizergina@inbox.ru)
+### 📊 GitHub-статистика
 
-# Education
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=areldin8&show_icons=true&theme=default&hide_border=true&title_color=1f8f3e&icon_color=3fbf5f&text_color=1f2b1f" alt="GitHub stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=areldin8&layout=compact&hide_border=true&title_color=1f8f3e&text_color=1f2b1f" alt="Top languages" height="165" />
+</p>
 
-- **Hexlet**  
-  April 2023 - March 2025  
-- **Computer Science and Computer Engineering, Kazan National Research Technical University (KSTU)**  
-  September 2019 - January 2022  
-- **Psychology, Kazan Federal University (KFU)**  
-  September 2016 - June 2018  
-- **German Language and Literature, Kazan Federal University (KFU)**  
-  September 2012 - June 2016  
+### 📫 Контакты
 
-# Skills
-
-- **Programming Languages:**  
-  - Java  
-- **Markup Languages:**  
-  - HTML  
-  - CSS  
-- **Development Tools:**  
-  - IntelliJ IDEA  
-  - Git  
-  - WSL  
-  - Command Line  
-- **Databases:**  
-  - PostgreSQL  
-- **Technologies:**  
-  - Basics of working with RESTful API  
-  - Experience with JSON and YAML  
-- **Frameworks and Technologies:**  
-  - **Spring:** Experience with Spring Framework for creating web applications and RESTful services.  
-  - **Hibernate:** Using Hibernate for database interaction and ORM (Object-Relational Mapping).  
-  - **JDBC:** Knowledge of JDBC for low-level database interaction.  
-- **Additional Skills:**  
-  - Basics of working with RESTful API  
-  - Experience with JSON and YAML  
-  - Understanding of Agile and Scrum principles  
-
-# Experience
-
-**Check-in Agent for Organizing and Servicing Passenger Air Transportation**  
-Kazan International Airport (kazan.aero)  
-April 2018 - Present  
+<p>
+  <a href="mailto:nizergina@inbox.ru">
+    <img src="https://img.shields.io/badge/Email-1c9b8e?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://career.habr.com/areldin8">
+    <img src="https://img.shields.io/badge/Хабр_Карьера-1c9b8e?style=flat-square&logo=habr&logoColor=white" alt="Хабр Карьера" />
+  </a>
+  <a href="https://github.com/areldin8">
+    <img src="https://img.shields.io/badge/GitHub-1c9b8e?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
