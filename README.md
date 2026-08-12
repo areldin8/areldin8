@@ -45,15 +45,11 @@
 ---
 ### 📊 Игровая Статистика (GitHub Stats)
 
-<p align="left">
-  <img src="https://shields.io" alt="Sims Stats" />
-  <img src="https://shields.io" alt="Code Activity" />
-</p>
-
-* 🟩 **Главный навык:** Java (Core, Collections, Stream API) [INDEX]
-* 🟩 **Базы данных:** PostgreSQL, Hibernate (Опыт Highload) [INDEX]
-* 🟩 **Фреймворки:** Spring Boot (MVC, Data, Security), Javalin [INDEX]
-* 🟩 **DevOps окружение:** Docker, Docker-compose, Apache Kafka, Git [INDEX]
+* ☕ **Уровень Java-разработки:** 85% (Junior+)
+* ⚙️ **Основной язык:** Java (Core, Collections, Stream API)
+* 🗄️ **Базы данных:** PostgreSQL, Hibernate (Опыт Highload)
+* 🛠️ **Инструменты:** Spring Boot, Docker, Apache Kafka, Git
+* 📁 **Активность кода:** пет-проекты и Open Source
 
 ---
 
